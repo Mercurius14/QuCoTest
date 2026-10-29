@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+.DS_Store
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.xdv

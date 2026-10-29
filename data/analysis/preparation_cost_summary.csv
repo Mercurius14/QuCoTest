@@ -1,0 +1,5 @@
+method,prep_depth,prep_cx
+brick_circuit,5.0,5.434782608695652
+condition_coherence,1.0,0.0
+quratest_iqft,44.47826086956522,49.32608695652174
+quratest_ucnot,3.0,1.5869565217391304

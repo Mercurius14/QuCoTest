@@ -1,0 +1,47 @@
+subject,max_controls,control_band,multi_controlled_gates,control_widths
+cdkm_ripple_carry_adder_10q,2,2,8,[2]
+cdkm_ripple_carry_adder_4q,2,2,2,[2]
+cdkm_ripple_carry_adder_6q,2,2,4,[2]
+cdkm_ripple_carry_adder_8q,2,2,6,[2]
+grover_10q,9,>=4,34,"[8, 9]"
+grover_3q,2,2,1,[2]
+grover_4q,3,3,4,"[2, 3]"
+grover_6q,5,>=4,8,"[4, 5]"
+grover_7q,6,>=4,12,"[5, 6]"
+grover_8q,7,>=4,16,"[6, 7]"
+grover_9q,8,>=4,24,"[7, 8]"
+half_adder_3q,2,2,1,[2]
+half_adder_5q,2,2,3,[2]
+half_adder_7q,2,2,5,[2]
+half_adder_9q,3,3,8,"[2, 3]"
+hrs_cumulative_multiplier_5q,2,2,17,[2]
+hrs_cumulative_multiplier_9q,2,2,66,[2]
+multiplier_4q,2,2,2,[2]
+multiplier_8q,2,2,16,[2]
+qwalk_d1_3q,2,2,2,[2]
+qwalk_d1_4q,3,3,4,"[2, 3]"
+qwalk_d1_5q,4,>=4,6,"[2, 3, 4]"
+qwalk_d2_3q,2,2,4,[2]
+qwalk_d2_4q,3,3,8,"[2, 3]"
+qwalk_d2_5q,4,>=4,12,"[2, 3, 4]"
+qwalk_d2_6q,5,>=4,16,"[2, 3, 4, 5]"
+qwalk_d2_7q,6,>=4,20,"[2, 3, 4, 5, 6]"
+qwalk_d4_4q,3,3,16,"[2, 3]"
+qwalk_d4_8q,7,>=4,48,"[2, 3, 4, 5, 6, 7]"
+randomcircuit_10q,3,3,11,"[2, 3]"
+randomcircuit_3q,1,<2,0,[]
+randomcircuit_4q,3,3,2,"[2, 3]"
+randomcircuit_5q,3,3,2,"[2, 3]"
+randomcircuit_6q,3,3,6,"[2, 3]"
+randomcircuit_7q,3,3,6,"[2, 3]"
+randomcircuit_8q,3,3,10,"[2, 3]"
+randomcircuit_9q,3,3,11,"[2, 3]"
+rg_qft_multiplier_4q,2,2,2,[2]
+rg_qft_multiplier_8q,2,2,16,[2]
+vbe_ripple_carry_adder_10q,2,2,10,[2]
+vbe_ripple_carry_adder_4q,2,2,2,[2]
+vbe_ripple_carry_adder_7q,2,2,6,[2]
+muttg_CE,11,>=4,12,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+muttg_QRAM,3,3,2,"[2, 3]"
+pricingcall_9_qubits,2,2,18,[2]
+pricingput_9_qubits,2,2,18,[2]

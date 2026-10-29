@@ -1,0 +1,47 @@
+subject,family,qubits,input_qubits,input_ports_json,bundled_original_qasm,provenance
+cdkm_ripple_carry_adder_10q,cdkm_ripple_carry_adder,10,10,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",originals/cdkm_ripple_carry_adder_10q.qasm,original_primary
+cdkm_ripple_carry_adder_4q,cdkm_ripple_carry_adder,4,4,"[0, 1, 2, 3]",originals/cdkm_ripple_carry_adder_4q.qasm,original_primary
+cdkm_ripple_carry_adder_6q,cdkm_ripple_carry_adder,6,6,"[0, 1, 2, 3, 4, 5]",originals/cdkm_ripple_carry_adder_6q.qasm,original_primary
+cdkm_ripple_carry_adder_8q,cdkm_ripple_carry_adder,8,8,"[0, 1, 2, 3, 4, 5, 6, 7]",originals/cdkm_ripple_carry_adder_8q.qasm,original_primary
+grover_10q,grover,10,10,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",originals/grover_10q.qasm,original_primary
+grover_3q,grover,3,3,"[0, 1, 2]",originals/grover_3q.qasm,original_primary
+grover_4q,grover,4,4,"[0, 1, 2, 3]",originals/grover_4q.qasm,original_primary
+grover_6q,grover,6,6,"[0, 1, 2, 3, 4, 5]",originals/grover_6q.qasm,original_primary
+grover_7q,grover,7,7,"[0, 1, 2, 3, 4, 5, 6]",originals/grover_7q.qasm,original_primary
+grover_8q,grover,8,8,"[0, 1, 2, 3, 4, 5, 6, 7]",originals/grover_8q.qasm,original_primary
+grover_9q,grover,9,9,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",originals/grover_9q.qasm,original_primary
+half_adder_3q,half_adder,3,3,"[0, 1, 2]",originals/half_adder_3q.qasm,original_primary
+half_adder_5q,half_adder,5,5,"[0, 1, 2, 3, 4]",originals/half_adder_5q.qasm,original_primary
+half_adder_7q,half_adder,7,7,"[0, 1, 2, 3, 4, 5, 6]",originals/half_adder_7q.qasm,original_primary
+half_adder_9q,half_adder,9,9,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",originals/half_adder_9q.qasm,original_primary
+hrs_cumulative_multiplier_5q,hrs_cumulative_multiplier,5,5,"[0, 1, 2, 3, 4]",originals/hrs_cumulative_multiplier_5q.qasm,original_primary
+hrs_cumulative_multiplier_9q,hrs_cumulative_multiplier,9,9,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",originals/hrs_cumulative_multiplier_9q.qasm,original_primary
+multiplier_4q,multiplier,4,4,"[0, 1, 2, 3]",originals/multiplier_4q.qasm,original_primary
+multiplier_8q,multiplier,8,8,"[0, 1, 2, 3, 4, 5, 6, 7]",originals/multiplier_8q.qasm,original_primary
+qwalk_d1_3q,qwalk,3,3,"[0, 1, 2]",originals/qwalk_d1_3q.qasm,original_primary
+qwalk_d1_4q,qwalk,4,4,"[0, 1, 2, 3]",originals/qwalk_d1_4q.qasm,original_primary
+qwalk_d1_5q,qwalk,5,5,"[0, 1, 2, 3, 4]",originals/qwalk_d1_5q.qasm,original_primary
+qwalk_d2_3q,qwalk,3,3,"[0, 1, 2]",originals/qwalk_d2_3q.qasm,original_primary
+qwalk_d2_4q,qwalk,4,4,"[0, 1, 2, 3]",originals/qwalk_d2_4q.qasm,original_primary
+qwalk_d2_5q,qwalk,5,5,"[0, 1, 2, 3, 4]",originals/qwalk_d2_5q.qasm,original_primary
+qwalk_d2_6q,qwalk,6,6,"[0, 1, 2, 3, 4, 5]",originals/qwalk_d2_6q.qasm,original_primary
+qwalk_d2_7q,qwalk,7,7,"[0, 1, 2, 3, 4, 5, 6]",originals/qwalk_d2_7q.qasm,original_primary
+qwalk_d4_4q,qwalk,4,4,"[0, 1, 2, 3]",originals/qwalk_d4_4q.qasm,original_primary
+qwalk_d4_8q,qwalk,8,8,"[0, 1, 2, 3, 4, 5, 6, 7]",originals/qwalk_d4_8q.qasm,original_primary
+randomcircuit_10q,randomcircuit,10,10,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",originals/randomcircuit_10q.qasm,original_primary
+randomcircuit_3q,randomcircuit,3,3,"[0, 1, 2]",originals/randomcircuit_3q.qasm,original_primary
+randomcircuit_4q,randomcircuit,4,4,"[0, 1, 2, 3]",originals/randomcircuit_4q.qasm,original_primary
+randomcircuit_5q,randomcircuit,5,5,"[0, 1, 2, 3, 4]",originals/randomcircuit_5q.qasm,original_primary
+randomcircuit_6q,randomcircuit,6,6,"[0, 1, 2, 3, 4, 5]",originals/randomcircuit_6q.qasm,original_primary
+randomcircuit_7q,randomcircuit,7,7,"[0, 1, 2, 3, 4, 5, 6]",originals/randomcircuit_7q.qasm,original_primary
+randomcircuit_8q,randomcircuit,8,8,"[0, 1, 2, 3, 4, 5, 6, 7]",originals/randomcircuit_8q.qasm,original_primary
+randomcircuit_9q,randomcircuit,9,9,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",originals/randomcircuit_9q.qasm,original_primary
+rg_qft_multiplier_4q,rg_qft_multiplier,4,4,"[0, 1, 2, 3]",originals/rg_qft_multiplier_4q.qasm,original_primary
+rg_qft_multiplier_8q,rg_qft_multiplier,8,8,"[0, 1, 2, 3, 4, 5, 6, 7]",originals/rg_qft_multiplier_8q.qasm,original_primary
+vbe_ripple_carry_adder_10q,vbe_ripple_carry_adder,10,10,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",originals/vbe_ripple_carry_adder_10q.qasm,original_primary
+vbe_ripple_carry_adder_4q,vbe_ripple_carry_adder,4,4,"[0, 1, 2, 3]",originals/vbe_ripple_carry_adder_4q.qasm,original_primary
+vbe_ripple_carry_adder_7q,vbe_ripple_carry_adder,7,7,"[0, 1, 2, 3, 4, 5, 6]",originals/vbe_ripple_carry_adder_7q.qasm,original_primary
+muttg_CE,ConditionalExecution,14,10,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",originals/muttg_CE.qasm,published_muttg
+muttg_QRAM,QRAM,13,9,"[4, 5, 6, 7, 8, 9, 10, 11, 12]",originals/muttg_QRAM.qasm,published_muttg
+pricingcall_9_qubits,pricingcall,9,9,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",originals/pricingcall_9_qubits.qasm,published_qmutbench
+pricingput_9_qubits,pricingput,9,9,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",originals/pricingput_9_qubits.qasm,published_qmutbench

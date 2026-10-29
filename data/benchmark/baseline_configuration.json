@@ -1,0 +1,16 @@
+{
+  "allowed_gates": [
+    "H",
+    "X",
+    "RX",
+    "RY",
+    "RZ",
+    "CX"
+  ],
+  "max_prep_depth": 5,
+  "require_params": true,
+  "param_range": [
+    -3.141592653589793,
+    3.141592653589793
+  ]
+}

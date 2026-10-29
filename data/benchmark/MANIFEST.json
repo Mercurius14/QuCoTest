@@ -1,0 +1,14 @@
+{
+  "programs": 46,
+  "mutants": 1000,
+  "difficulty_counts": {
+    "Easy": 419,
+    "Very-Easy": 338,
+    "Medium": 146,
+    "Hard": 97
+  },
+  "preserves_all_original_963": true,
+  "source": "MQTBench-derived primary corpus plus published MutTG and QMutBench faults",
+  "policy": "retrospective augmentation; frozen generation and ranking; no independent external-validation claim",
+  "auxiliary_inputs": "use input_ports_json in subjects.csv; all other qubits initialized to zero"
+}
