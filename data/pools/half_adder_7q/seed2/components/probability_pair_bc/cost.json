@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g4:C:active",
+      "actual_calls": 108,
+      "unused_calls": 940,
+      "checkpoint_state_computations": 108,
+      "best_value": 0.9999999999999998,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.027671396266669035
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g4:C:off:0",
+      "actual_calls": 123,
+      "unused_calls": 925,
+      "checkpoint_state_computations": 123,
+      "best_value": 1.0000000000000002,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.028886601328849792
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g4:C:off:1",
+      "actual_calls": 123,
+      "unused_calls": 925,
+      "checkpoint_state_computations": 123,
+      "best_value": 0.9999999999999989,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.028932772111147642
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g4:P:0",
+      "actual_calls": 138,
+      "unused_calls": 910,
+      "checkpoint_state_computations": 138,
+      "best_value": 0.9999999999999845,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.03275131294503808
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g4:P:1",
+      "actual_calls": 108,
+      "unused_calls": 940,
+      "checkpoint_state_computations": 108,
+      "best_value": 0.9999999999653335,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.026022723875939846
+    }
+  ],
+  "actual_search_calls": 600,
+  "unused_search_calls": 4640,
+  "score_checkpoint_computations": 175,
+  "score_seconds": 0.03878371696919203,
+  "state_construction_seconds": 0.006440899334847927,
+  "guard_generation_seconds": 9.498884901404381e-05,
+  "sorting_seconds": 0.008627085015177727,
+  "shared_base_search_seconds_actual_once": 0.08549076970666647,
+  "shared_guard_generation_seconds_actual_once": 9.498884901404381e-05,
+  "variant_search_seconds": 0.058774036820977926,
+  "independent_search_seconds": 0.1442648065276444,
+  "independent_total_generation_and_ranking_seconds": 0.19821149669587612,
+  "peak_rss_kib": 255280
+}
