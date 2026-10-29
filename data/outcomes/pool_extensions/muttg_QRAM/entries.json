@@ -1,0 +1,167 @@
+[
+  {
+    "replicate": 1,
+    "method": "pool",
+    "size": 42
+  },
+  {
+    "replicate": 1,
+    "method": "entry",
+    "size": 42
+  },
+  {
+    "replicate": 1,
+    "method": "random_circuit",
+    "size": 30
+  },
+  {
+    "replicate": 1,
+    "method": "brick_circuit",
+    "size": 30
+  },
+  {
+    "replicate": 1,
+    "method": "quratest_iqft",
+    "size": 30
+  },
+  {
+    "replicate": 1,
+    "method": "quratest_ucnot",
+    "size": 30
+  },
+  {
+    "replicate": 1,
+    "method": "qucat_pairwise",
+    "size": 8
+  },
+  {
+    "replicate": 1,
+    "method": "qcbc_bc",
+    "size": 42
+  },
+  {
+    "replicate": 1,
+    "method": "condition_only_bc",
+    "size": 37
+  },
+  {
+    "replicate": 1,
+    "method": "condition_restart_bc",
+    "size": 42
+  },
+  {
+    "replicate": 1,
+    "method": "probability_pair_bc",
+    "size": 42
+  },
+  {
+    "replicate": 2,
+    "method": "pool",
+    "size": 42
+  },
+  {
+    "replicate": 2,
+    "method": "entry",
+    "size": 42
+  },
+  {
+    "replicate": 2,
+    "method": "random_circuit",
+    "size": 30
+  },
+  {
+    "replicate": 2,
+    "method": "brick_circuit",
+    "size": 30
+  },
+  {
+    "replicate": 2,
+    "method": "quratest_iqft",
+    "size": 30
+  },
+  {
+    "replicate": 2,
+    "method": "quratest_ucnot",
+    "size": 30
+  },
+  {
+    "replicate": 2,
+    "method": "qucat_pairwise",
+    "size": 8
+  },
+  {
+    "replicate": 2,
+    "method": "qcbc_bc",
+    "size": 42
+  },
+  {
+    "replicate": 2,
+    "method": "condition_only_bc",
+    "size": 37
+  },
+  {
+    "replicate": 2,
+    "method": "condition_restart_bc",
+    "size": 42
+  },
+  {
+    "replicate": 2,
+    "method": "probability_pair_bc",
+    "size": 42
+  },
+  {
+    "replicate": 3,
+    "method": "pool",
+    "size": 42
+  },
+  {
+    "replicate": 3,
+    "method": "entry",
+    "size": 42
+  },
+  {
+    "replicate": 3,
+    "method": "random_circuit",
+    "size": 30
+  },
+  {
+    "replicate": 3,
+    "method": "brick_circuit",
+    "size": 30
+  },
+  {
+    "replicate": 3,
+    "method": "quratest_iqft",
+    "size": 30
+  },
+  {
+    "replicate": 3,
+    "method": "quratest_ucnot",
+    "size": 30
+  },
+  {
+    "replicate": 3,
+    "method": "qucat_pairwise",
+    "size": 8
+  },
+  {
+    "replicate": 3,
+    "method": "qcbc_bc",
+    "size": 42
+  },
+  {
+    "replicate": 3,
+    "method": "condition_only_bc",
+    "size": 37
+  },
+  {
+    "replicate": 3,
+    "method": "condition_restart_bc",
+    "size": 42
+  },
+  {
+    "replicate": 3,
+    "method": "probability_pair_bc",
+    "size": 42
+  }
+]
