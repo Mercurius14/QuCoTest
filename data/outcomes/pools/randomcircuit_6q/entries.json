@@ -1,0 +1,17 @@
+[
+  {
+    "rep": 1,
+    "method": "qcbc",
+    "size": 42
+  },
+  {
+    "rep": 2,
+    "method": "qcbc",
+    "size": 42
+  },
+  {
+    "rep": 3,
+    "method": "qcbc",
+    "size": 42
+  }
+]

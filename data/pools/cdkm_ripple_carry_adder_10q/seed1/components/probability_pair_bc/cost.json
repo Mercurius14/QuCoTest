@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g2:C:active",
+      "actual_calls": 153,
+      "unused_calls": 895,
+      "checkpoint_state_computations": 153,
+      "best_value": 0.9999999999999988,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.2008919189684093
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g2:C:off:0",
+      "actual_calls": 174,
+      "unused_calls": 874,
+      "checkpoint_state_computations": 174,
+      "best_value": 0.9999999999999997,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.21182535775005817
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g2:C:off:1",
+      "actual_calls": 153,
+      "unused_calls": 895,
+      "checkpoint_state_computations": 153,
+      "best_value": 0.9999999999544233,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.18513337103649974
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g2:P:0",
+      "actual_calls": 195,
+      "unused_calls": 853,
+      "checkpoint_state_computations": 195,
+      "best_value": 0.9999999999983217,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.23580221086740494
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g2:P:1",
+      "actual_calls": 195,
+      "unused_calls": 853,
+      "checkpoint_state_computations": 195,
+      "best_value": 0.9999999999999984,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.23640401801094413
+    }
+  ],
+  "actual_search_calls": 870,
+  "unused_search_calls": 4370,
+  "score_checkpoint_computations": 175,
+  "score_seconds": 0.20887525379657745,
+  "state_construction_seconds": 0.009585788939148188,
+  "guard_generation_seconds": 0.00011919811367988586,
+  "sorting_seconds": 0.008971509989351034,
+  "shared_base_search_seconds_actual_once": 0.5978506477549672,
+  "shared_guard_generation_seconds_actual_once": 0.00011919811367988586,
+  "variant_search_seconds": 0.47220622887834907,
+  "independent_search_seconds": 1.0700568766333163,
+  "independent_total_generation_and_ranking_seconds": 1.2976086274720728,
+  "peak_rss_kib": 206116
+}
