@@ -1,0 +1,133 @@
+{
+  "experiment": "Full 46-program, 1000-mutant finite-shot replay",
+  "status": "frozen_before_new_sampling",
+  "frozen_date": "2026-10-11",
+  "methods": [
+    "condition_coherence",
+    "brick_circuit",
+    "quratest_iqft"
+  ],
+  "display_names": {
+    "condition_coherence": "QuCoTest",
+    "brick_circuit": "BWC",
+    "quratest_iqft": "QuraTest-IQFT"
+  },
+  "suite_replicates": [
+    1,
+    2,
+    3
+  ],
+  "maximum_tests": 10,
+  "programs": [
+    "cdkm_ripple_carry_adder_10q",
+    "cdkm_ripple_carry_adder_4q",
+    "cdkm_ripple_carry_adder_6q",
+    "cdkm_ripple_carry_adder_8q",
+    "grover_10q",
+    "grover_3q",
+    "grover_4q",
+    "grover_6q",
+    "grover_7q",
+    "grover_8q",
+    "grover_9q",
+    "half_adder_3q",
+    "half_adder_5q",
+    "half_adder_7q",
+    "half_adder_9q",
+    "hrs_cumulative_multiplier_5q",
+    "hrs_cumulative_multiplier_9q",
+    "multiplier_4q",
+    "multiplier_8q",
+    "qwalk_d1_3q",
+    "qwalk_d1_4q",
+    "qwalk_d1_5q",
+    "qwalk_d2_3q",
+    "qwalk_d2_4q",
+    "qwalk_d2_5q",
+    "qwalk_d2_6q",
+    "qwalk_d2_7q",
+    "qwalk_d4_4q",
+    "qwalk_d4_8q",
+    "randomcircuit_10q",
+    "randomcircuit_3q",
+    "randomcircuit_4q",
+    "randomcircuit_5q",
+    "randomcircuit_6q",
+    "randomcircuit_7q",
+    "randomcircuit_8q",
+    "randomcircuit_9q",
+    "rg_qft_multiplier_4q",
+    "rg_qft_multiplier_8q",
+    "vbe_ripple_carry_adder_10q",
+    "vbe_ripple_carry_adder_4q",
+    "vbe_ripple_carry_adder_7q",
+    "muttg_CE",
+    "muttg_QRAM",
+    "pricingcall_9_qubits",
+    "pricingput_9_qubits"
+  ],
+  "program_selection": "all 46 programs in the existing frozen benchmark; no new program selection",
+  "mutants_per_program_cap": null,
+  "mutant_selection": "all 1000 benchmark mutants, no difficulty or outcome filtering",
+  "shots": [
+    1024,
+    4096,
+    16384
+  ],
+  "environments": [
+    "finite_ideal"
+  ],
+  "backend": {
+    "type": "qiskit.providers.fake_provider.GenericBackendV2",
+    "num_qubits": 20,
+    "seed": 916
+  },
+  "noise_scalars": {
+    "backend_low": 0.5,
+    "backend_medium": 1.0,
+    "backend_high": 2.0
+  },
+  "transpilation": {
+    "seed_transpiler": 916,
+    "optimization_level": 1,
+    "layout": "trivial when supported",
+    "basis_source": "frozen backend snapshot"
+  },
+  "input_semantics": "primary main-study ordered inputs, frozen before this finite-shot extension; no regeneration or reordering",
+  "sampling_seeds_per_configuration": 30,
+  "sampling_seed_namespace": "QGT-E4-SAMPLE-v1 using SHA256-derived SeedSequence",
+  "null_calibration_repeats": 2000,
+  "null_fpr_repeats": 500,
+  "null_seed_namespaces": [
+    "QGT-E4-NULL-CAL-v1",
+    "QGT-E4-NULL-EVAL-v1"
+  ],
+  "statistic": "maximum X/Y/Z total-variation distance between independent fixed and comparison samples",
+  "threshold": "per program/method/replicate/test/shots/noise original-vs-original empirical quantile at 1-alpha/10 with numpy method=higher",
+  "familywise_alpha_through_test_10": 0.05,
+  "exact_reference_oracle": "max global XYZ TVD >= 0.05 using ideal statevector",
+  "primary_metric": "AUC@1-10",
+  "secondary_metrics": [
+    "MS@1",
+    "MS@5"
+  ],
+  "diagnostic_metrics": [
+    "MS@10",
+    "false-positive rate at 1/5/10",
+    "first-detection rank",
+    "drop from exact ideal",
+    "rank consistency"
+  ],
+  "aggregation": "sampling seeds, suite replicates, and mutants are summarized within program; programs receive equal weight",
+  "comparisons": [
+    "QCBC-BWC",
+    "QCBC-QuraTest-IQFT"
+  ],
+  "inference": "paired program differences; percentile bootstrap 95% CI with 5000 program resamples; Wilcoxon signed-rank where nonzero pairs permit; Holm over 6 primary/secondary comparisons (2 baselines x AUC/MS1/MS5) separately per environment/shots family",
+  "failure_policy": "retain every error/timeout; no outcome-based replacement; probability pilot may trigger the predeclared 48-hour feasibility stop",
+  "auc": "normalized trapezoidal AUC@1-10 for all methods",
+  "scope": "follow-up on the known retrospective benchmark, not independent confirmation",
+  "reuse": "preserve existing selected-mutant observations, per-test calibrated thresholds and null draws where available; compute missing mutants/programs using unchanged seed namespaces",
+  "calibration_implementation": "Exact NumPy multinomial draws in batches of eight, preserving the original PCG64 sequence, 2000 repeats and 0.995 higher quantile; bounded contiguous allocations",
+  "simulation_implementation": "Exact Aer statevector; optimization level zero; simulator target restricted to used native gate names plus u/cx; same mathematical unitary"
+}
