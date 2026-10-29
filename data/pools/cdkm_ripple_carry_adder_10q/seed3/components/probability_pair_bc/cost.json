@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g2:C:active",
+      "actual_calls": 132,
+      "unused_calls": 916,
+      "checkpoint_state_computations": 132,
+      "best_value": 0.9999999999945592,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.1635647271759808
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g2:C:off:0",
+      "actual_calls": 153,
+      "unused_calls": 895,
+      "checkpoint_state_computations": 153,
+      "best_value": 1.0000000000000004,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.1837294171564281
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g2:C:off:1",
+      "actual_calls": 153,
+      "unused_calls": 895,
+      "checkpoint_state_computations": 153,
+      "best_value": 0.9999999999888637,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.18859000224620104
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g2:P:0",
+      "actual_calls": 195,
+      "unused_calls": 853,
+      "checkpoint_state_computations": 195,
+      "best_value": 0.9999999999987692,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.23696241714060307
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g2:P:1",
+      "actual_calls": 195,
+      "unused_calls": 853,
+      "checkpoint_state_computations": 195,
+      "best_value": 0.9999999999958833,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.2375994799658656
+    }
+  ],
+  "actual_search_calls": 828,
+  "unused_search_calls": 4412,
+  "score_checkpoint_computations": 175,
+  "score_seconds": 0.20756145287305117,
+  "state_construction_seconds": 0.009084147866815329,
+  "guard_generation_seconds": 0.00013545900583267212,
+  "sorting_seconds": 0.00918614398688078,
+  "shared_base_search_seconds_actual_once": 0.5358841465786099,
+  "shared_guard_generation_seconds_actual_once": 0.00013545900583267212,
+  "variant_search_seconds": 0.4745618971064687,
+  "independent_search_seconds": 1.0104460436850786,
+  "independent_total_generation_and_ranking_seconds": 1.2364132474176586,
+  "peak_rss_kib": 206116
+}
