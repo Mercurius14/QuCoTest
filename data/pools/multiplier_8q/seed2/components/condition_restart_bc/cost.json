@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:active",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999999982,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.038255768828094006
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999999993,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.0387463322840631
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:1",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999999994,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.03768855193629861
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:active",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999999987,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.03762969095259905
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999999993,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.03781500505283475
+    }
+  ],
+  "actual_search_calls": 665,
+  "unused_search_calls": 4575,
+  "score_checkpoint_computations": 105,
+  "score_seconds": 0.027365149930119514,
+  "state_construction_seconds": 0.007878030650317669,
+  "guard_generation_seconds": 8.000712841749191e-05,
+  "sorting_seconds": 0.009529347065836191,
+  "shared_base_search_seconds_actual_once": 0.11469065304845572,
+  "shared_guard_generation_seconds_actual_once": 8.000712841749191e-05,
+  "variant_search_seconds": 0.0754446960054338,
+  "independent_search_seconds": 0.1901353490538895,
+  "independent_total_generation_and_ranking_seconds": 0.23498788382858038,
+  "peak_rss_kib": 255280
+}
