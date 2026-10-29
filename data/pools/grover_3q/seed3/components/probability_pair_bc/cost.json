@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g3:C:active",
+      "actual_calls": 90,
+      "unused_calls": 958,
+      "checkpoint_state_computations": 90,
+      "best_value": 0.9999999999998409,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.012541024945676327
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g3:C:off:0",
+      "actual_calls": 104,
+      "unused_calls": 944,
+      "checkpoint_state_computations": 104,
+      "best_value": 0.9999999999999087,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.019009483978152275
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g3:C:off:1",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999999151,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.01068068202584982
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g3:P:0",
+      "actual_calls": 118,
+      "unused_calls": 930,
+      "checkpoint_state_computations": 118,
+      "best_value": 0.9999999999613836,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.01646216306835413
+    },
+    {
+      "candidate_role": "probability_pair",
+      "objective_id": "g3:P:1",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999999996,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.015908080153167248
+    }
+  ],
+  "actual_search_calls": 478,
+  "unused_search_calls": 4762,
+  "score_checkpoint_computations": 175,
+  "score_seconds": 0.023402261082082987,
+  "state_construction_seconds": 0.0025340081192553043,
+  "guard_generation_seconds": 0.0002194056287407875,
+  "sorting_seconds": 0.008523985743522644,
+  "shared_base_search_seconds_actual_once": 0.04223119094967842,
+  "shared_guard_generation_seconds_actual_once": 0.0002194056287407875,
+  "variant_search_seconds": 0.03237024322152138,
+  "independent_search_seconds": 0.0746014341711998,
+  "independent_total_generation_and_ranking_seconds": 0.10928109474480152,
+  "peak_rss_kib": 255280
+}
