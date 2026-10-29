@@ -1,0 +1,8 @@
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+qiskit==2.5.2
+qiskit-aer==0.17.2
+matplotlib==3.11.1
+PyYAML==6.0.3
+logzero==1.7.0
