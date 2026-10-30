@@ -1,0 +1,16 @@
+{
+  "searches": [],
+  "actual_search_calls": 0,
+  "unused_search_calls": 0,
+  "score_checkpoint_computations": 0,
+  "score_seconds": 2.7729663997888565e-05,
+  "state_construction_seconds": 0.002365421038120985,
+  "guard_generation_seconds": 0.00013397075235843658,
+  "sorting_seconds": 0.005587673280388117,
+  "shared_base_search_seconds_actual_once": 0,
+  "shared_guard_generation_seconds_actual_once": 0.00013397075235843658,
+  "variant_search_seconds": 0,
+  "independent_search_seconds": 0,
+  "independent_total_generation_and_ranking_seconds": 0.008114794734865427,
+  "peak_rss_kib": 260208
+}
