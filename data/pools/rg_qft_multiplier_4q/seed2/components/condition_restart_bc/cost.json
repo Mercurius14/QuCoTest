@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:active",
+      "actual_calls": 84,
+      "unused_calls": 964,
+      "checkpoint_state_computations": 84,
+      "best_value": 0.9999999999387641,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.013185846153646708
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999999992,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.014204760082066059
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:1",
+      "actual_calls": 84,
+      "unused_calls": 964,
+      "checkpoint_state_computations": 84,
+      "best_value": 0.9999999999995017,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.012661004904657602
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:active",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999999991,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.014245856087654829
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999999993,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.014033609069883823
+    }
+  ],
+  "actual_search_calls": 447,
+  "unused_search_calls": 4793,
+  "score_checkpoint_computations": 105,
+  "score_seconds": 0.013756034895777702,
+  "state_construction_seconds": 0.0033686701208353043,
+  "guard_generation_seconds": 6.425613537430763e-05,
+  "sorting_seconds": 0.00858657481148839,
+  "shared_base_search_seconds_actual_once": 0.04005161114037037,
+  "shared_guard_generation_seconds_actual_once": 6.425613537430763e-05,
+  "variant_search_seconds": 0.028279465157538652,
+  "independent_search_seconds": 0.06833107629790902,
+  "independent_total_generation_and_ranking_seconds": 0.09410661226138473,
+  "peak_rss_kib": 260208
+}
