@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g0:C:active",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 1.0,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.01926921121776104
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g0:C:off:0",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999999999,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.014214909169822931
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g0:C:off:1",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999999927,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.014088248368352652
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g0:C:active",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999999943,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.01398109132423997
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g0:C:off:0",
+      "actual_calls": 93,
+      "unused_calls": 955,
+      "checkpoint_state_computations": 93,
+      "best_value": 0.9999999999998993,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.015062973834574223
+    }
+  ],
+  "actual_search_calls": 465,
+  "unused_search_calls": 4775,
+  "score_checkpoint_computations": 105,
+  "score_seconds": 0.015160501934587955,
+  "state_construction_seconds": 0.00374401593580842,
+  "guard_generation_seconds": 6.105005741119385e-05,
+  "sorting_seconds": 0.008447705302387476,
+  "shared_base_search_seconds_actual_once": 0.04757236875593662,
+  "shared_guard_generation_seconds_actual_once": 6.105005741119385e-05,
+  "variant_search_seconds": 0.029044065158814192,
+  "independent_search_seconds": 0.07661643391475081,
+  "independent_total_generation_and_ranking_seconds": 0.10402970714494586,
+  "peak_rss_kib": 260208
+}
