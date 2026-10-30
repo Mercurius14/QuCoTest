@@ -1,0 +1,101 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g5:C:active",
+      "actual_calls": 150,
+      "unused_calls": 898,
+      "checkpoint_state_computations": 150,
+      "best_value": 0.9999999999723233,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.043657153844833374
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g5:C:off:0",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999999917,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.03874949272722006
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g5:C:off:1",
+      "actual_calls": 133,
+      "unused_calls": 915,
+      "checkpoint_state_computations": 133,
+      "best_value": 0.9999999999326944,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.03968122787773609
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g5:C:off:2",
+      "actual_calls": 150,
+      "unused_calls": 898,
+      "checkpoint_state_computations": 150,
+      "best_value": 0.9999999999999984,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.04334479384124279
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g21:C:active",
+      "actual_calls": 235,
+      "unused_calls": 813,
+      "checkpoint_state_computations": 235,
+      "best_value": 0.9999999999993983,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.06885986495763063
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g21:C:off:0",
+      "actual_calls": 235,
+      "unused_calls": 813,
+      "checkpoint_state_computations": 235,
+      "best_value": 0.9999999999993823,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.06875913729891181
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g21:C:off:1",
+      "actual_calls": 252,
+      "unused_calls": 796,
+      "checkpoint_state_computations": 252,
+      "best_value": 0.9999999999872913,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.07220530696213245
+    }
+  ],
+  "actual_search_calls": 1288,
+  "unused_search_calls": 6048,
+  "score_checkpoint_computations": 259,
+  "score_seconds": 0.06884640781208873,
+  "state_construction_seconds": 0.007195224054157734,
+  "guard_generation_seconds": 8.36462713778019e-05,
+  "sorting_seconds": 0.009655042085796595,
+  "shared_base_search_seconds_actual_once": 0.3752569775097072,
+  "shared_guard_generation_seconds_actual_once": 8.36462713778019e-05,
+  "variant_search_seconds": 0,
+  "independent_search_seconds": 0.3752569775097072,
+  "independent_total_generation_and_ranking_seconds": 0.46103729773312807,
+  "peak_rss_kib": 260208
+}
