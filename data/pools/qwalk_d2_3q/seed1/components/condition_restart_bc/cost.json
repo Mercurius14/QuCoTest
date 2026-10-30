@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:active",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999978354,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.011064136866480112
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 97,
+      "unused_calls": 951,
+      "checkpoint_state_computations": 97,
+      "best_value": 0.9999999999228449,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.012792866677045822
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:1",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999999992,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.012556442059576511
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:active",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.999999999982514,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.010699396021664143
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 104,
+      "unused_calls": 944,
+      "checkpoint_state_computations": 104,
+      "best_value": 0.9999999999999809,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.01395091600716114
+    }
+  ],
+  "actual_search_calls": 450,
+  "unused_search_calls": 4790,
+  "score_checkpoint_computations": 105,
+  "score_seconds": 0.010949837043881416,
+  "state_construction_seconds": 0.0025852699764072895,
+  "guard_generation_seconds": 6.746873259544373e-05,
+  "sorting_seconds": 0.008563369046896696,
+  "shared_base_search_seconds_actual_once": 0.036413445603102446,
+  "shared_guard_generation_seconds_actual_once": 6.746873259544373e-05,
+  "variant_search_seconds": 0.024650312028825283,
+  "independent_search_seconds": 0.06106375763192773,
+  "independent_total_generation_and_ranking_seconds": 0.08322970243170857,
+  "peak_rss_kib": 255280
+}

@@ -1,0 +1,77 @@
+{
+  "searches": [
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:active",
+      "actual_calls": 90,
+      "unused_calls": 958,
+      "checkpoint_state_computations": 90,
+      "best_value": 0.9999999999996344,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.01203875057399273
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999999917,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.010641815140843391
+    },
+    {
+      "candidate_role": "base_condition",
+      "objective_id": "g1:C:off:1",
+      "actual_calls": 90,
+      "unused_calls": 958,
+      "checkpoint_state_computations": 90,
+      "best_value": 0.9999999999999999,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.011675255838781595
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:active",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999998962,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.010506243910640478
+    },
+    {
+      "candidate_role": "condition_restart",
+      "objective_id": "g1:C:off:0",
+      "actual_calls": 83,
+      "unused_calls": 965,
+      "checkpoint_state_computations": 83,
+      "best_value": 0.9999999999999978,
+      "threshold_reached": true,
+      "converged_before_cap": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seconds": 0.011602399870753288
+    }
+  ],
+  "actual_search_calls": 429,
+  "unused_search_calls": 4811,
+  "score_checkpoint_computations": 105,
+  "score_seconds": 0.011034709867089987,
+  "state_construction_seconds": 0.002565939910709858,
+  "guard_generation_seconds": 6.181187927722931e-05,
+  "sorting_seconds": 0.008501864969730377,
+  "shared_base_search_seconds_actual_once": 0.034355821553617716,
+  "shared_guard_generation_seconds_actual_once": 6.181187927722931e-05,
+  "variant_search_seconds": 0.022108643781393766,
+  "independent_search_seconds": 0.05646446533501148,
+  "independent_total_generation_and_ranking_seconds": 0.07862879196181893,
+  "peak_rss_kib": 255280
+}
