@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-13",
+  "scope": "Exploratory hardware-snapshot cost estimate coupled with archived noiseless finite-shot detection observations; no physical QPU execution",
+  "programs": 46,
+  "mutants": 1000,
+  "methods": [
+    "condition_coherence",
+    "brick_circuit",
+    "quratest_iqft"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "shots_per_global_XYZ_basis": [
+    1024,
+    4096
+  ],
+  "observation_source": "experiment_22_full_finite_shots/raw: first ten frozen main inputs, 30 measurement seeds, calibrated per-input null threshold at alpha=0.005",
+  "backend": "IBM Brisbane public fake-provider calibration snapshot, last_update_date 2025-02-26; retrieved 2026-10-13, not live backend data",
+  "target": "Snapshot native ECR, RZ, SX, X, identity and measurement durations and coupling; reset duration also from snapshot",
+  "mapping": "Initial logical qubits mapped to physical 0..n-1, SABRE routing, seed_transpiler 916, optimization_level=0; fixed symbolic preparation templates bound after compilation; QISKIT_NUM_PROCS=1 fixes SABRE trial count to one, RAYON_NUM_THREADS=1; routed unitary compiled once per method/program, then terminal basis rotations and readout are scheduled separately; compiler receives explicit native basis_gates and directed coupling_map from the same snapshot; Target is used for calibrated durations. This avoids a Qiskit Target GateDirection failure; all 46 programs recompiled consistently. QASM-defined ECR instructions are converted to standard ECRGate after operator-equivalence checks, allowing native direction correction.",
+  "preparation": "Original method structures: product U(theta,phi,0), two-layer brickwork, product U plus inverse QFT; MutTG auxiliary ports fixed to zero",
+  "schedule": "ASAP schedule for routed preparation+DUT unitary, followed by global basis-rotation and readout stages on final logical mapping; plus maximum calibrated reset duration and default_rep_delay=250 microseconds each shot",
+  "reference_cost": "Both original and comparison histogram acquisitions charged to match the two-sample finite-shot oracle; original-program circuit is used as representative duration for both, not separate routing of every mutant",
+  "time_per_input": "2 * shots * sum_over_XYZ(complete preparation+DUT+basis-rotation+measurement schedule + reset + rep_delay)",
+  "panels": [
+    "Modeled QPU usage time including 2s batched overhead",
+    "Measured generation/preprocessing/ordering plus modeled QPU usage"
+  ],
+  "generation_timing": "Single-thread, pinned physical CPU, native first seed stream replay; 60-second censoring is sufficient for the largest modeled 60-second window; no mutant execution or device compilation included",
+  "windows_seconds": {
+    "1024": 15,
+    "4096": 60
+  },
+  "no_input_count_budget": "Within these time windows, the 250us repetition delay alone ensures fewer than ten complete two-sample XYZ tests. Verify 10*per_input_time > window for every program/method. Thus archived first-ten observations cover the entire cost window without extrapolation or artificial plateau.",
+  "metrics": "Program-equal cumulative MS(t) and normalized time AUC(0,t); these differ from MS@1 and input-indexed AUC@1-10",
+  "excluded_costs": [
+    "queue and network delay",
+    "fresh oracle calibration",
+    "device compilation and parameter binding",
+    "controller overhead beyond listed reset and rep_delay"
+  ],
+  "noise": "No Brisbane gate/readout noise is injected into detection outcomes; hardware-noise effectiveness is not established",
+  "paper_modified": false,
+  "job_overhead": "One batched sub-job per program/method run; approximate 2-second setup added once, following IBM public workload-usage guide. Not one separate job per test.",
+  "cost_model_source": "https://eu-de.quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time",
+  "deep_program_cost_censoring": "Grover-10q: full routing was not completed. Unrouted DUT-only fixed level-zero native decomposition with minimum calibrated gate times gives an optimistic critical-path lower bound, excluding preparation/routing/direction/readout/reset. Its comparison lower bound exceeds each displayed horizon. It contributes zero throughout the curve and is included in all 46-program detection averages, but excluded from mean exact input cost. See code/lower_bound.py."
+}
